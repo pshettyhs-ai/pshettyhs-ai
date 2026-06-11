@@ -9,13 +9,13 @@ Author - Pavan Shetty H S
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
+  <a href="https://linkedin.com/in/[YOUR_LINKEDIN_USERNAME](https://www.linkedin.com/in/pavan-shetty-h-s1807/)" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:your.pavanshetty1405@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://github.com/PavanShettyHS">
+  <a href="https://github.com/pshettyhs-ai">
     <img src="https://img.shields.io/github/followers/PavanShettyHS?label=Follow&style=for-the-badge&logo=github&color=181717" alt="GitHub Followers">
   </a>
 </p>
@@ -107,7 +107,7 @@ With a strong foundation in low-level communication protocols, circuit design, a
 ## 🎓 Education
 
 * **Bachelor of Engineering (B.E.) in Electronics & Communication Engineering**
-  * *Core Focus:* Embedded Systems, Microcontrollers, Microprocessors, Signals & Systems, Advanced VLSI, and Analog/Digital Communication.
+  * *Core Focus:* Embedded Systems, Microcontrollers, Microprocessors, Signals & Systems and Analog/Digital Communication.
 
 ---
 
@@ -115,11 +115,11 @@ With a strong foundation in low-level communication protocols, circuit design, a
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=PavanShettyHS&show_icons=true&theme=tokyonight&count_private=true" alt="Pavan's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PavanShettyHS&theme=tokyonight" alt="Pavan's Streak Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pshettyhs-ai&theme=tokyonight" alt="Pavan's Streak Stats" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PavanShettyHS&layout=compact&theme=tokyonight&langs_count=6" alt="Top Languages" width="60%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pshettyhs-ai&layout=compact&theme=tokyonight&langs_count=6" alt="Top Languages" width="60%" />
 </p>
 
 ---
@@ -128,7 +128,7 @@ With a strong foundation in low-level communication protocols, circuit design, a
 
 <h3 align="center">Contributions Animation</h3>
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/PavanShettyHS/PavanShettyHS/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  <img src="https://cdn.jsdelivr.net/gh/pshettyhs-ai/pshettyhs-ai/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
 ---
