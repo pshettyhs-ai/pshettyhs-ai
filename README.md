@@ -137,9 +137,9 @@ With a strong foundation in low-level communication protocols, circuit design, a
 
 I am actively open to discussing technical collaborations, firmware designs, or entry-level opportunities. Feel free to reach out via any of the channels below!
 
-* **LinkedIn:** [linkedin.com/in/YOUR_LINKEDIN_USERNAME](https://linkedin.com/in/YOUR_LINKEDIN_USERNAME)
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
-* **GitHub:** [github.com/PavanShettyHS](https://github.com/PavanShettyHS)
+* **LinkedIn:** [linkedin.com/in/YOUR_LINKEDIN_USERNAME](https://www.linkedin.com/in/pavan-shetty-h-s1807/)
+* **Email:** [your.email@example.com](pavanshetty1405@gmail.com)
+* **GitHub:** [github.com/PavanShettyHS](https://github.com/pshettyhs-ai)
 
 ---
 <p align="center"><i>"Optimizing code down to the bit, because every clock cycle counts."</i></p>
