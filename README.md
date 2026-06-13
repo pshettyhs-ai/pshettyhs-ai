@@ -4,7 +4,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=220&section=header&text=Pavan%20Shetty%20H%20S&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=24\&duration=3000\&pause=1000\&center=true\&vCenter=true\&width=900\&lines=Electronics+and+Communication+Engineer;Embedded+Systems+Enthusiast;Embedded+C+Programmer;IoT+Developer;PCB+Design+Learner)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=24\&duration=3000\&pause=1000\&center=true\&vCenter=true\&width=900\&lines=Electronics+and+Communication+Engineer;Embedded+Systems+Aspirant;Firmware+•Embedded+C+•+CPP+•+IoT;Turning+Embedded+Ideas+into+Working+Prototypes)](https://git.io/typing-svg)
 
 </div>
 
