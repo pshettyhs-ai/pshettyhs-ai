@@ -1,0 +1,95 @@
+# ============================================================
+# Workflow  : update-stats.yml
+# Author    : Pavan Shetty H S
+# Purpose   : Force-refresh all GitHub stats widgets on every
+#             commit by busting GitHub CDN cache.
+# Fix       : Removed ALL third-party actions (checkout,
+#             setup-python). Uses only raw git + built-in
+#             python3 — zero Node.js dependency, zero warnings.
+# ============================================================
+
+name: 🔄 Update GitHub Stats
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Refresh Stats & Badges
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Clone repo with plain git — no actions/checkout ──
+      #       Avoids all Node.js action deprecation warnings.
+      - name: Clone repository
+        run: |
+          git clone \
+            --depth=1 \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            repo
+          cd repo
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # ── 2. Inject timestamp using runner's built-in python3 ──
+      #       ubuntu-latest ships Python 3.12+ — nothing to install.
+      - name: Inject cache-busting timestamp into README
+        run: |
+          cd repo
+          python3 - << 'PYEOF'
+          import re, time
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          ts = int(time.time())
+
+          # All widget URL patterns — append fresh &_ts= to each
+          patterns = [
+              r'(github-readme-stats\.vercel\.app/api[^\s"]*?)(&cache_seconds=\d+)?(&_ts=\d+)?(?=")',
+              r'(streak-stats\.demolab\.com/[^\s"]*?)(&_ts=\d+)?(?=")',
+              r'(github-readme-streak-stats\.herokuapp\.com/[^\s"]*?)(&_ts=\d+)?(?=")',
+              r'(github-readme-activity-graph\.vercel\.app/[^\s"]*?)(&_ts=\d+)?(?=")',
+              r'(github-profile-trophy\.vercel\.app/[^\s"]*?)(&_ts=\d+)?(?=")',
+              r'(img\.shields\.io/badge/[^\s"]*?)(&_ts=\d+)?(?=")',
+              r'(komarev\.com/ghpvc/[^\s"]*?)(&_ts=\d+)?(?=")',
+          ]
+
+          for pattern in patterns:
+              content = re.sub(
+                  pattern,
+                  lambda m, t=ts: m.group(1) + f"&_ts={t}",
+                  content
+              )
+
+          # github-readme-stats also needs cache_seconds=0
+          content = re.sub(
+              r'(github-readme-stats\.vercel\.app/api[^\s"]*?)(&cache_seconds=\d+)?(&_ts=\d+)?(?=")',
+              lambda m, t=ts: m.group(1) + f"&cache_seconds=0&_ts={t}",
+              content
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(content)
+
+          print(f"✅ Timestamp {ts} injected into README.md")
+          PYEOF
+
+      # ── 3. Commit and push if README changed ────────────────
+      - name: Commit updated README
+        run: |
+          cd repo
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: 🔄 auto-refresh stats cache [skip ci]"
+            git push
+          fi
