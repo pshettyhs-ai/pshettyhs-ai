@@ -137,7 +137,7 @@ I enjoy building real-world engineering projects involving **microcontrollers, c
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?username=pshettyhs-ai&theme=tokyonight"/>
+<img src="https://streak-stats.demolab.com?user=pshettyhs-ai&theme=tokyonight"/>
 
 </div>
 
