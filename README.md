@@ -42,6 +42,8 @@ I enjoy building real-world engineering projects involving **microcontrollers, c
 
 </p>
 
+<img src="https://komarev.com/ghpvc/?username=pavanshettyhs-18&label=Profile+Views&color=1f6feb&style=flat-square&_ts=1782041623" alt="profile views"/>
+
 ---
 
 ## 🛠 Technical Skills
