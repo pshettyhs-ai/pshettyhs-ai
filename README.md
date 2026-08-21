@@ -29,20 +29,20 @@ I enjoy building real-world engineering projects involving **microcontrollers, c
 <p align="left">
 
 <a href="mailto:pshettyhs@gmail.com">
-<img src="https://img.shields.io/badge/Email-pshettyhs%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white&_ts=1787295013"/>
+<img src="https://img.shields.io/badge/Email-pshettyhs%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white&_ts=1787316647"/>
 </a>
 
 <a href="https://www.linkedin.com/in/pavan-shetty-h-s1807/">
-<img src="https://img.shields.io/badge/LinkedIn-Pavan%20Shetty%20H%20S-blue?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1787295013"/>
+<img src="https://img.shields.io/badge/LinkedIn-Pavan%20Shetty%20H%20S-blue?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1787316647"/>
 </a>
 
 <a href="https://github.com/pshettyhs-ai">
-<img src="https://img.shields.io/badge/GitHub-pshettyhs--ai-black?style=for-the-badge&logo=github&_ts=1787295013"/>
+<img src="https://img.shields.io/badge/GitHub-pshettyhs--ai-black?style=for-the-badge&logo=github&_ts=1787316647"/>
 </a>
 
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=pavanshettyhs-18&label=Profile+Views&color=1f6feb&style=flat-square&_ts=1787295013" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=pavanshettyhs-18&label=Profile+Views&color=1f6feb&style=flat-square&_ts=1787316647" alt="profile views"/>
 
 ---
 
@@ -127,9 +127,9 @@ I enjoy building real-world engineering projects involving **microcontrollers, c
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pshettyhs-ai&show_icons=true&theme=tokyonight&cache_seconds=0&_ts=1787295013"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pshettyhs-ai&show_icons=true&theme=tokyonight&cache_seconds=0&_ts=1787316647"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pshettyhs-ai&layout=compact&theme=tokyonight&cache_seconds=0&_ts=1787295013"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pshettyhs-ai&layout=compact&theme=tokyonight&cache_seconds=0&_ts=1787316647"/>
 
 </div>
 
@@ -149,7 +149,7 @@ I enjoy building real-world engineering projects involving **microcontrollers, c
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pshettyhs-ai&theme=tokyo-night&_ts=1787295013"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pshettyhs-ai&theme=tokyo-night&_ts=1787316647"/>
 
 </div>
 
